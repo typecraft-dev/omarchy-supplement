@@ -17,5 +17,5 @@ fi
 # Install latest LTS nodejs if no nodejs version is installed
 if ! asdf list nodejs &>/dev/null || [ -z "$(asdf list nodejs 2>/dev/null)" ]; then
     asdf install nodejs latest:20
-    asdf global nodejs latest:20
+    asdf set -u nodejs latest:20
 fi
