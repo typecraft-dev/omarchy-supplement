@@ -19,13 +19,13 @@ echo "Setting up dotfiles..."
 # Stow .config
 if [ -d ".config" ]; then
     cd "$REPO_DIR"
-    stow -t "$HOME" .config
+    stow --adopt -t "$HOME" .config
 fi
 
 # Stow .zshrc
 if [ -f ".zshrc" ]; then
     cd "$REPO_DIR"
-    stow -t "$HOME" .
+    stow --adopt -t "$HOME" .
 fi
 
 echo "Dotfiles setup complete!"

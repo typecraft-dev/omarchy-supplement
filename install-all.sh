@@ -1,6 +1,9 @@
 #!/bin/bash
 
 # Install all packages in order
+# Validate sudo credentials once at the beginning
+sudo -v
+
 ./install-zsh.sh
 ./install-openssh.sh
 ./install-oh-my-zsh.sh
