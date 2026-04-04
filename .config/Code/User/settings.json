@@ -1,6 +1,10 @@
 { "workbench.colorTheme": "Tokyo Night",
   "update.mode": "none",
-  "editor.fontSize": 16,
-  "workbench.fontSize": 16,
-  "chat.fontSize": 16
+  "editor.fontSize": 14,
+  "workbench.fontSize": 14,
+"chat.fontSize": 14,
+"geminicodeassist.project": "laughing-coil-cq6tl",
+"geminicodeassist.inlineSuggestions.enableAuto": true,
+"chat.viewSessions.orientation": "stacked",
+"diffEditor.codeLens": true
 }
