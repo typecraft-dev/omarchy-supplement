@@ -1,0 +1,4 @@
+# Ghostty configuration
+font-size = 14
+theme = dark
+shell = zsh

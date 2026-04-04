@@ -2,14 +2,16 @@
 
 # Install all packages in order
 ./install-zsh.sh
+./install-openssh.sh
+./install-oh-my-zsh.sh
 ./install-asdf.sh
+./install-sdkman.sh
 ./install-nodejs.sh
-./install-ruby.sh
-./install-postgresql.sh
+./install-docker.sh
+./install-tigervnc.sh
 ./install-ghostty.sh
 ./install-tmux.sh
 ./install-stow.sh
-./install-dotfiles.sh
+./setup-dotfiles.sh
 ./install-hyprland-overrides.sh
-
 ./set-shell.sh
