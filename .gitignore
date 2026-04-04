@@ -1,0 +1,14 @@
+# Zsh history files
+.zsh_history
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -7,3 +7,9 @@ if ! command -v code &>/dev/null; then
 else
     echo "Visual Studio Code is already installed"
 fi
+
+# Install VS Code extensions
+echo "Installing VS Code extensions..."
+
+# Note: Gemini Code Assist requires manual installation after signing into VS Code
+# code --install-extension google.geminicodeassist
