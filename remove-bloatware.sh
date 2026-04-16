@@ -23,7 +23,6 @@ BLOATWARE_PACKAGES=(
     evolution        # Email and calendar client
     brasero          # CD/DVD burning tool
     sound-juicer     # CD ripping tool
-    shotwell         # Photo manager
     simple-scan      # Document scanner
     yelp             # Help viewer
     orca             # Screen reader

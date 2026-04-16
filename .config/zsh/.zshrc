@@ -105,6 +105,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Custom aliases
 alias gs="git status"
+alias vim="nvim"
+
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"

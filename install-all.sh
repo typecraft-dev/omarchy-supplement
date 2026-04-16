@@ -17,4 +17,5 @@ sudo -v
 ./install-stow.sh
 ./setup-dotfiles.sh
 ./install-hyprland-overrides.sh
+./disable-notifications.sh
 ./set-shell.sh

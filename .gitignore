@@ -1,5 +1,6 @@
 # Zsh history files
 .zsh_history
+.zcompdump-omarchy*
 
 # Log files
 *.log
